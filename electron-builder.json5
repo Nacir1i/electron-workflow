@@ -23,5 +23,11 @@
     "perMachine": false,
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
-  }
+  },
+  publish: [
+    {
+      provider: 'github',
+      releaseType: 'release',
+    },
+  ],
 }
