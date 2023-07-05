@@ -24,10 +24,10 @@
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
   },
-  "publish": {
-    [
+  "publish": [
+    {
       "provider": "github",
       "releaseType": "release"
-    ]
-  }
+    }
+  ]
 }
