@@ -1,5 +1,5 @@
 {
-  "appId": "YourAppID",
+  "appId": "com.example.myapp",
   "asar": true,
   "directories": {
     "output": "release/${version}"
@@ -24,9 +24,13 @@
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
   },
-  "publish": {
-    "provider": "github",
-    "releaseType": "release",
-    "url": "https://github.com/Nacir1i/electron-workflow"
-  }
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "Nacir1i",
+      "repo": "electron-workflow",
+      "releaseType": "release",
+      "publishAutoUpdate": true
+    }
+  ]
 }
