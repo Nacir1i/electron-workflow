@@ -28,7 +28,7 @@
     {
       provider: 'github',
       releaseType: 'release',
-      token: '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'
+      token: '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'
     },
   ],
 }
