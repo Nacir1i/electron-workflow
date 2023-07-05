@@ -26,6 +26,7 @@
   },
   "publish": {
     "provider": "github",
-    "releaseType": "release"
+    "releaseType": "release",
+    "url": "https://github.com/Nacir1i/electron-workflow"
   }
 }
