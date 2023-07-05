@@ -23,14 +23,5 @@
     "perMachine": false,
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
-  },
-  "publish": [
-    {
-      "provider": "github",
-      "owner": "Nacir1i",
-      "repo": "electron-workflow",
-      "releaseType": "always",
-      "publishAutoUpdate": true
-    }
-  ]
+  }
 }
