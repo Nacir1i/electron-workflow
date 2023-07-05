@@ -29,7 +29,7 @@
       "provider": "github",
       "owner": "Nacir1i",
       "repo": "electron-workflow",
-      "releaseType": "release",
+      "releaseType": "always",
       "publishAutoUpdate": true
     }
   ]
