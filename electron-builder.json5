@@ -23,12 +23,5 @@
     "perMachine": false,
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
-  },
-  publish: [
-    {
-      provider: 'github',
-      releaseType: 'release',
-      token: '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'
-    },
-  ],
+  }
 }
